@@ -1,0 +1,225 @@
+/**
+ * Generic Styles (Defaults)
+ */
+body {
+    font-family: 'Merriweather', 'Palantino', serif;
+    background: #dedee0;
+    padding: 0;
+    margin: 0 12px 12px;
+}
+
+img { 
+    border: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #307b31
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.inner-header,
+.splash,
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(48, 123, 49, 0), rgba(48, 123, 49, 0.75), rgba(48, 123, 49, 0)); 
+}
+
+p,dl,ul,ol {
+    line-height:1.6em;
+    font-size: 17px;
+}
+
+/**
+ * Home Splash
+ */
+.splash p {
+    line-height:30px;
+    font-size:19px;
+}
+
+.splash-banner img {
+    border: 2px solid #333;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/**
+ * HEADER
+ */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header hr {
+    max-width: 900px;
+}
+
+#brand {
+    margin: 0;
+    padding:0;
+}
+
+#brand a {
+    color: #333;
+    text-decoration: none;
+    font-size: 25px
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+header nav a {
+    display:block;
+    padding: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/** 
+ * FOOTER SOCIAL
+ */
+.social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.social {
+    padding: 0 5px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -90000px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.twitter {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_twitter.png');
+}
+
+.linkedin {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_linkedin.png');
+}
+
+.github {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_github.png');
+}
+
+.facebook {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_facebook.png');
+}
+
+
+/**
+ * RESUME
+ */
+
+#resume .job {
+    margin-bottom: 15px;
+}
+
+#resume h2 {
+    font-size: 1.2em;
+}
+
+#resume .job h4,
+#resume .job h5 {
+    margin: 0;
+    padding: 0;
+}
+
+#resume dl,
+#resume p,
+#resume ul {
+    line-height: 1.3em
+}
+
+#resume .job h4 {
+    font-size:1em;
+}
+
+#resume .job h5 {
+    font-size:0.9em
+}
+
+#resume .job p {
+    margin: 0
+}
+
+#resume section ul {
+    margin: 5px 0 5px 25px;
+    padding:0;
+}
+
+#resume section h3 {
+    margin-bottom: 7px;
+}
+
+#resume section p,
+#resume section dl {
+    margin-top: 0;
+}
+
+#resume dd {
+    margin-left: 0px;
+    margin-bottom: 5px
+}
+
+/**
+ * PHOTOGRAPHY
+ */
+.albums li {
+    font-size: 1.1em;
+    line-height: 2.3em;
+}
+
+@media (min-width: 768px) {
+    .inner-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

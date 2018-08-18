@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "page_head.html" . }}
+</head>
+<body>
+    {{ template "_internal/google_analytics_async.html" . }}
+    
+    {{ partial "body_header.html" . }}
+    
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ partial "body_footer.html" . }}
+</body>
+</html>

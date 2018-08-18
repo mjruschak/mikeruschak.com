@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Michael J. Ruschak"
+googleAnalytics = "UA-24572574-1"
+
+[params]
+    author = "Michael J. Ruschak"
+    bio = "Full Stack Programmer, Swimmer, Kayaker, Hiker from Rochester, NY"
+    year = "2018"

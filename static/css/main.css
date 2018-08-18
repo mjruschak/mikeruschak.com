@@ -1,0 +1,284 @@
+/**
+ * GENERIC
+ */
+
+html {
+    font-family: 'Georgia', serif;
+    font-size: 30px
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background: rgba(240, 240, 240, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+	padding: 5px 18px;
+}
+
+.inner-header,
+.content  {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.0em;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+p,
+dl,
+ul,
+ol {
+    line-height: 1.3em;
+    font-size: 1.0em
+}
+
+dt {
+    font-weight: bold;
+}
+
+.center-block {
+    margin: 0 auto;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: rgba(162, 44, 61, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/**
+ * SITE NAVIGATION
+ */
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 8px 5px;
+    font-size: 1.0em;
+}
+
+nav .active a {
+    color: #333;
+}
+
+/**
+ * PAGE BRANDING
+ */
+
+#brand {
+    font-size: 1.1em;
+    letter-spacing: -2px;
+}
+
+#brand a {
+    text-decoration: none;
+    color: #000;
+}
+
+/**
+ * FOOTER
+ */
+
+footer {
+    margin-top: 25px;
+}
+
+.copyright {
+	font-size: 0.35em;
+	text-align:center;
+	margin-top: 25px;
+}
+
+.rochester-made a {
+    text-align: center;
+    margin: 25px auto;
+}
+
+/**
+ * Social Media Icons and Styles
+ */
+
+.social-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    height: 32px;
+    width: 190px;
+}
+
+.social-list li {
+    float: left;
+    margin: 0 3px;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -90000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.twitter {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_twitter.png');
+    background-size: 32px;
+}
+
+.linkedin {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_linkedin.png');
+    background-size: 32px;
+}
+
+.github {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_github.png');
+    background-size: 32px;
+}
+
+.google {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_google.png');
+    background-size: 32px;
+}
+
+.pinterest {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_pinterest.png');
+    background-size: 32px;
+}
+
+.facebook {
+    background-image: url('https://d74yjzkgiiqdu.cloudfront.net/images/social/social_facebook.png');
+    background-size: 32px;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 75px;
+        background: #222;
+        border-bottom: 5px solid rgba(115, 43, 45, 1);
+    }
+    #brand {
+        position: absolute;
+        left: 18px;
+        line-height: 37px;
+    }
+    #brand a {
+        color: #fff;
+    }
+    nav {
+        position: absolute;
+        right: 18px;
+        top: 0;
+        margin-top: 23px;
+    }
+    nav ul {
+        margin: 0;
+    }
+    nav li {
+        margin: 0 5px;
+        float: left;
+    }
+    nav a {
+        color: #fff;
+        background: rgba(162, 44, 61, 1);
+        border-radius: 9px;
+        padding: 7px 15px;
+        font-size: 0.9em;
+    }
+    nav a:hover {
+        background: #333;
+        text-decoration: none;
+    }
+    nav .active a {
+        background: #333;
+        color: #fff;
+    }
+    p,
+    dl,
+    ul,
+    ol {
+        line-height: 1.3em;
+        font-size: 0.7em
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.0em;
+    }
+    h3 {
+        font-size: 0.8em;
+    }
+    h4 {
+        font-size: 0.7em;
+    }
+    .list h1 {
+        font-size: 0.9em;
+    }
+    .download {
+        float: right;
+    }
+    .alignright {
+        float: right;
+    }
+    .alignleft {
+        float: left;
+    }
+    .img-padding {
+        padding: 12px;
+    }
+}
