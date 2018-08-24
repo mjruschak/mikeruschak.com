@@ -9,14 +9,14 @@ draft: false
 {{< load-photoswipe >}}  
 {{< gallery >}}
 
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0049.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0057.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0063.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0065.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0084.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0089.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0125.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0128.jpg" >}}
-{{< figure src="https://ruschak.nyc3.digitaloceanspaces.com/portland-head-light/IMG_0138.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0049.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0057.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0063.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0065.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0084.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0089.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0125.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0128.jpg" >}}
+{{< figure src="https://d74yjzkgiiqdu.cloudfront.net/portland-head-light/IMG_0138.jpg" >}}
 
 {{< /gallery >}}
