@@ -13,7 +13,7 @@ draft: false
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1920.jpg" >}}
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1934.jpg" >}}
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1944.jpg" >}}
-{{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1952.jpg" >}}
+{{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1952_2.jpg" >}}
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1968.jpg" >}}
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_1990.jpg" >}}
 {{< figure src="https://mruschak.nyc3.cdn.digitaloceanspaces.com/mount-washington/IMG_2003.jpg" >}}
