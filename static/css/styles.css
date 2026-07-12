@@ -137,10 +137,6 @@ header nav a:hover {
     background-position: center center;
 }
 
-.twitter {
-    background-image: url('https://mruschak.nyc3.cdn.digitaloceanspaces.com/social/social_twitter.png');
-}
-
 .linkedin {
     background-image: url('https://mruschak.nyc3.cdn.digitaloceanspaces.com/social/social_linkedin.png');
 }
