@@ -1,13 +1,13 @@
 <header>
     <div class="inner-header">
         <div>
-            <h1 id="brand"><a href='{{ "/" | relURL }}'>{{.Site.Params.Author}}</a></h1>
+            <h1 id="brand"><a class='{{ if eq .RelPermalink ("/" | relURL) }}is-active{{ end }}' href='{{ "/" | relURL }}'>{{.Site.Params.Author}}</a></h1>
         </div>
         <div>
             <nav>
                 <ul role="navigation">
-                    <li><a href='{{ "resume" | relURL }}'>Resume</a></li>
-                    <li><a href='{{ "projects" | relURL }}'>Projects</a></li>
+                    <li><a class='{{ if hasPrefix .RelPermalink ("resume" | relURL) }}is-active{{ end }}' href='{{ "resume" | relURL }}'>Resume</a></li>
+                    <li><a class='{{ if hasPrefix .RelPermalink ("projects" | relURL) }}is-active{{ end }}' href='{{ "projects" | relURL }}'>Projects</a></li>
                 </ul>
             </nav>
         </div>

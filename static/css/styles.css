@@ -60,12 +60,19 @@ p,dl,ul,ol {
  * Home Splash
  */
 .splash p {
-    line-height:30px;
+    line-height: 1.7;
     font-size:19px;
 }
 
+.home-copy {
+    max-width: 760px;
+    margin: 0 auto 18px;
+}
+
 .splash-banner img {
-    border: 2px solid var(--green-700);
+    border: 1px solid #c9d9cd;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(31, 77, 46, 0.14);
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -125,6 +132,13 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+#brand a.is-active,
+header nav a.is-active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
 /** 
  * FOOTER SOCIAL
  */
@@ -142,10 +156,16 @@ header nav a:hover {
     width: 32px;
     height: 32px;
     display: block;
+    border-radius: 50%;
+    opacity: 0.88;
     text-indent: -90000px;
     background-size: 32px;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.social:hover {
+    opacity: 1;
 }
 
 .linkedin {
@@ -228,5 +248,15 @@ header nav a:hover {
     .inner-header {
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        margin: 0 10px 14px;
+    }
+
+    header {
+        padding-top: 6px;
     }
 }
