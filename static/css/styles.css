@@ -1,9 +1,17 @@
 /**
  * Generic Styles (Defaults)
  */
+:root {
+    --green-900: #1f4d2e;
+    --green-700: #2f6b3f;
+    --green-500: #3f8a52;
+    --green-100: #e8f3ea;
+}
+
 body {
     font-family: 'Merriweather', 'Palantino', serif;
-    background: #dedee0;
+    background: #eef2ee;
+    color: #1e2a22;
     padding: 0;
     margin: 0 12px 12px;
 }
@@ -18,10 +26,11 @@ img {
 }
 
 a {
-    color: #307b31
+    color: var(--green-700)
 }
 
 a:hover {
+    color: var(--green-900);
     text-decoration: none;
 }
 
@@ -56,7 +65,7 @@ p,dl,ul,ol {
 }
 
 .splash-banner img {
-    border: 2px solid #333;
+    border: 2px solid var(--green-700);
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -80,7 +89,7 @@ header hr {
 }
 
 #brand a {
-    color: #333;
+    color: var(--green-900);
     text-decoration: none;
     font-size: 25px
 }
@@ -106,11 +115,13 @@ header nav a {
     display:block;
     padding: 0 10px;
     border-radius: 5px;
+    color: var(--green-900);
     text-decoration: none;
     font-size: 17px;
 }
 
 header nav a:hover {
+    background: var(--green-100);
     text-decoration: underline;
 }
 
