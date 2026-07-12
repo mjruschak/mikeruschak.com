@@ -1,7 +1,6 @@
 baseURL = "https://mikeruschak.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "Michael J. Ruschak"
-googleAnalytics = "UA-24572574-1"
 
 [params]
     author = "Michael J. Ruschak"
