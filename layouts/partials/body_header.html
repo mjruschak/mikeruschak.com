@@ -1,14 +1,14 @@
 <header>
     <div class="inner-header">
         <div>
-            <h1 id="brand" href="/"><a href="/">{{.Site.Params.Author}}</a></h1>
+            <h1 id="brand"><a href='{{ "/" | relURL }}'>{{.Site.Params.Author}}</a></h1>
         </div>
         <div>
             <nav>
                 <ul role="navigation">
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/photography">Photography</a></li>
+                    <li><a href='{{ "resume" | relURL }}'>Resume</a></li>
+                    <li><a href='{{ "projects" | relURL }}'>Projects</a></li>
+                    <li><a href='{{ "photography" | relURL }}'>Photography</a></li>
                 </ul>
             </nav>
         </div>
