@@ -103,7 +103,7 @@ h3 {
 }
 
 .splash-photos {
-    max-width: 840px;
+    max-width: 900px;
     margin: 18px auto 6px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -127,7 +127,7 @@ h3 {
     --tilt: 0deg;
     --rise: 0px;
     margin: 0;
-    padding: 8px;
+    padding: 6px;
     border: 1px solid #b8ccc0;
     background: linear-gradient(180deg, #ffffff 0%, #f3f8f5 100%);
     border-radius: 14px;
@@ -157,7 +157,7 @@ h3 {
     --tilt: -0.6deg;
     --rise: 0px;
     grid-column: 1 / -1;
-    max-width: 620px;
+    max-width: 700px;
     justify-self: center;
 }
 
@@ -171,12 +171,24 @@ h3 {
     --rise: -2px;
 }
 
+.splash-banner {
+    margin: 0;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .splash-banner img {
     border: 1px solid #c1d4c6;
     border-radius: 10px;
     box-shadow: 0 7px 16px rgba(22, 52, 34, 0.12);
     display: block;
-    width: 100%;
+    max-width: 100%;
+    max-height: 340px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 /**
@@ -502,6 +514,15 @@ footer {
         --tilt: 0deg;
         --rise: 0px;
         transform: none;
+    }
+
+    .splash-banner {
+        min-height: 0;
+    }
+
+    .splash-banner img {
+        max-height: none;
+        width: 100%;
     }
 
     header {
