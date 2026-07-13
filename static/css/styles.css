@@ -102,13 +102,81 @@ h3 {
     margin: 0 auto 14px;
 }
 
+.splash-photos {
+    max-width: 840px;
+    margin: 18px auto 6px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    position: relative;
+}
+
+.splash-photos::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 24%;
+    bottom: 14%;
+    background: radial-gradient(circle at center, rgba(54, 116, 74, 0.2) 0%, rgba(54, 116, 74, 0) 70%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.splash-card {
+    --tilt: 0deg;
+    --rise: 0px;
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #b8ccc0;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f8f5 100%);
+    border-radius: 14px;
+    box-shadow: 0 12px 22px rgba(21, 47, 31, 0.14);
+    transform: translateY(var(--rise)) rotate(var(--tilt));
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    position: relative;
+    z-index: 1;
+}
+
+.splash-card:hover {
+    transform: translateY(calc(var(--rise) - 4px)) rotate(var(--tilt));
+    box-shadow: 0 16px 26px rgba(21, 47, 31, 0.2);
+}
+
+.splash-card-a {
+    --tilt: -1.3deg;
+    --rise: 8px;
+}
+
+.splash-card-b {
+    --tilt: 1.2deg;
+    --rise: -4px;
+}
+
+.splash-card-c {
+    --tilt: -0.6deg;
+    --rise: 0px;
+    grid-column: 1 / -1;
+    max-width: 620px;
+    justify-self: center;
+}
+
+.splash-card-d {
+    --tilt: -1deg;
+    --rise: 2px;
+}
+
+.splash-card-e {
+    --tilt: 1deg;
+    --rise: -2px;
+}
+
 .splash-banner img {
     border: 1px solid #c1d4c6;
     border-radius: 10px;
-    box-shadow: 0 8px 18px rgba(22, 52, 34, 0.14);
+    box-shadow: 0 7px 16px rgba(22, 52, 34, 0.12);
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    width: 100%;
 }
 
 /**
@@ -421,6 +489,19 @@ footer {
     .content:not(#resume) {
         border-radius: 10px;
         padding: 14px 12px 10px;
+    }
+
+    .splash-photos {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 14px;
+    }
+
+    .splash-card,
+    .splash-card:hover {
+        --tilt: 0deg;
+        --rise: 0px;
+        transform: none;
     }
 
     header {
